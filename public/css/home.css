@@ -1,36 +1,40 @@
-main.home {
+.home-body{
 
+display: inline-flex;
+
+flex-direction: column;
+
+width: 97%;
 }
 
-main.home.product-card {
+.product-card {
+
+display: flex;
+
+background: white;
+
+margin-top: 16px;
+
+padding: 10px;
+
+flex-direction: column;
 }
 
-main.home h2{
+h2 {background-color: white;}
 
+h4 {background-color: white;margin-left: 33px;}
+
+p {
+    background-color: white;
 }
 
-main.home p{
-
+.product-card2 {
+    display: inline-flex;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    align-items: center;
+    justify-content: flex-start;
 }
-
-
-
-
-
-main.home.section-tutoriales {
-
-}
-
-main.home.section-tutoriales h2 {
-
-}
-
-main.home.section-tutoriales article img {
-
-}
-
-main.home.section-tutoriales article h2 {
-
-}
-
-
